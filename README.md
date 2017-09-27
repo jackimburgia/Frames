@@ -15,8 +15,10 @@ using static Spearing.Utilities.Data.Frames.FrameExtensions;
     // Use the ToColumn extension method to convert an IEnumerable<T> to a Column
     // The collections are stored internally typed
     frame["Names"] = new string[] { "Bob", "Mary", "Joe" }.ToColumn();
-    frame["StartDate"] = new string[] { "10/1/2016", "6/8/2016", "9/2/2017" }
-        .Select(date => Convert.ToDateTime(date))
+    frame["StartDate"] = new DateTime[] {
+        Convert.ToDateTime("10/1/2016"),
+        Convert.ToDateTime("6/8/2016"),
+        Convert.ToDateTime("9/2/2017") }
         .ToColumn();
 
     // The static col method allows you quickly create a Column
