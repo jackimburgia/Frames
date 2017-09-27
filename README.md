@@ -1,5 +1,5 @@
 # .Net Data Frames
-The .Net Data frames is for performing exploratory data analysis using any .Net language.
+The .Net Data Frames package is for performing exploratory data analysis using any .Net language.
 The Frame and Column classes inherit from generic lists so all Linq methods work.
 All data is stored internally typed.
 
