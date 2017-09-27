@@ -1,4 +1,4 @@
-"Names","Ages","StartDate","HighScore","LowScore","ScoreDiff","HighPlus1"
-"Bob",40,"10/1/2016 12:00:00 AM",90,78,12,91
-"Mary",28,"6/8/2016 12:00:00 AM",92,81,11,93
-"Joe",35,"9/2/2017 12:00:00 AM",87,85,2,88
+"Names","StartDate","Ages","HighScore","LowScore","ScoreDiff","HighPlus1","Hours","Pay"
+"Bob","10/1/2016 12:00:00 AM",41,90,78,12,91,25,375
+"Mary","6/8/2016 12:00:00 AM",28,92,81,11,93,30,600
+"Joe","9/2/2017 12:00:00 AM",35,87,85,2,88,38,456
