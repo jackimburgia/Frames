@@ -3,6 +3,13 @@ The .Net Data frames is for performing exploratory data analysis using any .Net 
 The Frame and Column classes inherit from generic lists so all Linq methods work.
 All data is stored internally typed.
 
+## Getting Started
+To install .Net Data Frames, run the following from the Package Manager Console.
+```csharp
+Install-Package XXXXXXX
+Reading
+```
+
 ## Create a new frame and populating with data
    ```csharp
 using Spearing.Utilities.Data.Frames;
