@@ -5,6 +5,10 @@ All data is stored internally typed.
 
 ## Create a new frame and populating with data
    ```csharp
+using Spearing.Utilities.Data.Frames;
+using static Spearing.Utilities.Data.Frames.FrameExtensions;
+
+
     // Create a new frame
     Frame frame = new Frame();
 
