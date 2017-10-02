@@ -39,7 +39,7 @@ using static Spearing.Utilities.Data.Frames.FrameExtensions;
     frame.Print();
 
     // Print selected columns
-    frame.Print("Names", "ScoreDiff");
+    frame.Print("Names", "HighScore");
    ```
    
 ## Retrieving data 
