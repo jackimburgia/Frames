@@ -8,7 +8,7 @@ All data is stored internally typed.
 ## Getting Started
 To install .Net Data Frames, run the following from the Package Manager Console.
 ```csharp
-Install-Package Frames -Version 1.0.1
+Install-Package Frames -Version 1.1.3
 ```
 
 ## Create a new frame and populating with data
